@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    border:1px solid none;
+    grid-gap:10px;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    border-bottom: 1px solid rgb(175, 161, 161);
+    
+
+    
+}
+.churchName{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    
+    
+}
+.navigation{
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+    margin: 15px;
+    width: 200px;
+   
+
+}
+
+.Icons{
+    grid-row: 1;
+    grid-column: 6/8;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.Icons a{
+    padding: 5px;
+    color: black;
+    align-content: space-evenly;
+  
+}
+.trbtn{
+    border: none;
+    background-color: white;
+}
+.mit
+{
+    width: 100%;
+}
+
+.mit ul {
+    width: 100%;
+    display: block;
+
+}
+
+
+
+.arr ul{
+    display: block;
+    margin: 5px;
+   
+
+    
+}
+.arr ul li {
+    display: inline;
+    list-style: none;
+    
+
+
+}
+
+.arr ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    
+
+   
+
+    
+}
+
+.arr ul li a:hover{
+    color:  rgb(18, 132, 185);
+}
+
+
+h4{
+    font-size: 12px;
+    width: 150px;
+    font-family: default;
+    color: rgb(36, 33, 33);
+    padding: 10px;
+}
+h4 b{
+    font-weight: bold;
+    font-size: 15px;
+}
+.sma{
+    font-size: 10px;
+    
+}
+div.myimg{
+   
+    height: 99px;
+    width: 50%;
+   
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(7, 64, 102);
+    font-size: 6px;
+}
+div.myimg a{
+    text-align: center;
+    font-size: 100px;
+   
+}
+#img1{
+    height: 80px;
+}
+.tools, .signIn{
+    text-decoration: none;
+}
+ .btn1{
+    background-color: rgb(7, 64, 102);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+ }
+   
+
+#signbtn, #signIn{
+    color: white;
+    text-decoration: none;
+   
+}
+#signbtn  {
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(18, 132, 185);
+}
+.main{
+    
+  
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+   
+    
+
+}
+.cont1{
+    border: 1px solid black;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    margin: 10px;
+   
+
+
+
+
+}
+.cont2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    border: 1px solid black;
+    margin: 10px;
+
+
+}
+
+.cont1 img,.cont2 img,.cont3 img, .cont4 img, .cont88 img, .cont6 img, .cont7 img, .cont8 img, .cont9 img,.cont10 img,.cont11 img,.cont12 img, .cont13 img,.cont14 img,.cont15 img{
+   height: 100%;
+   width:100% ;
+  
+   
+}
+.cont3{
+    grid-column: 4/6;
+    grid-row: 2/3;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.cont4{
+    grid-column: 2/3;
+    grid-row: 3;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.cont88{
+    grid-column:3;
+    grid-row: 3;
+    border: 1px solid black;
+    margin: 10px;
+}
+.cont6{
+    grid-column: 4/5;
+    grid-row: 3;
+    border: 1px solid black;
+    margin: 10px;
+}
+.cont7{
+    grid-column: 5/6;
+    grid-row: 3;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.mid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+     width: 100%;
+     height: 100%;
+    border: 1px solid black;
+    text-align: center;
+   
+}
+.container{
+    height: 40px;
+    width: 280px;
+    border: 1px solid rgb(236, 228, 228);
+    border-radius: 3px;
+    background-color: transparent;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: width 1s ease-in;
+    
+    
+   
+}
+
+
+
+.container button img{
+    height:20px;
+  align-items: last baseline;
+  justify-items: last baseline;
+    
+}
+.container button{
+   display: inline;
+   outline: 0;
+   border: 0;
+   border-radius: 5px;
+   width: 25px;
+   
+   
+}
+.nav-2 li{
+    width: 100%;
+    display: inline;
+
+}
+
+
+
+.search-bar input{
+    height: 25px;
+    width: 200px;
+    border: none;
+    outline: 0;
+   
+}
+.search-bar{
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+.l1{
+    grid-row: 1;
+    grid-column: 2/3;
+    border: 1px solid black;
+    margin: 10px;
+}
+.l1 ul li a,.l2 ul li a, .l3 ul li a,.l4 ul li a,.l5 ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(18, 132, 185);
+};
+
+
+.l1 ul li a:hover{
+    border-bottom: 1px solid black;
+
+}
+.l2 ul li a:hover{
+    border-bottom: 1px solid black;
+
+}
+.l3 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.l4 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.l1 ul li ,.l2 ul li , .l3 ul li ,.l4 ul li ,.l5 ul li {
+    list-style: none;
+}
+
+
+
+.l2{
+    grid-row: 1;
+    grid-column:3/4 ;
+    border: 1px solid black ;
+    margin: 10px;
+}
+.l3{
+    grid-column: 4/5;
+    grid-row: 1;
+    border: 1px solid black;
+    margin: 10px;
+}
+.l4{
+    grid-column: 5/6;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+
+
+}
+.l1,.l2,.l3,.l4{
+    text-align: center;
+}
+.l4 ul li a{
+    padding: 15px;
+}
+.feat{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 600px;
+    margin: 10px;
+    width: 100%;
+}
+
+.cont8{
+    grid-column: 2/3;
+    grid-row: 1;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+.cont9{
+    grid-column: 3/4;
+    grid-row: 1;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+.coont10{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border: 1px solid black;
+    margin: 10px;
+}
+.cont11{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.cont12{
+    grid-column: 2/3;
+    grid-row: 2;
+    border: 1px solid black;
+    margin: 10px;
+
+
+}
+.cont13{
+    grid-column: 3/4;
+    grid-row: 2;
+    border: 1px solid black;
+    margin: 10px;
+
+
+
+}
+.coont14{
+    grid-column: 4/5;
+    grid-row: 2;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.coont15{
+    grid-column: 5/6;
+    grid-row: 2;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+.jesus{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 300px;
+   background-color: #F7FFE5;
+   text-align: center;
+}
+.cont16{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border: 1px solid black;
+    height: 240px;
+    margin: 10px;
+   
+
+}
+.cont16 img{
+    
+    height: 160px;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    background-color: #F7FFE5;
+
+}
+.f1{
+    grid-column: 3/5;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+}
+.f1 ul li{
+    list-style: none;
+}
+.f1 ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+.f1 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.f2{
+    grid-column: 5/7;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+.f2 ul li{
+    list-style: none;
+}
+.f2 ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+.f2 ul li a::hover{
+    border-bottom: 1px solid black;
+
+}
+.f3{
+    grid-column: 7/8;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+
+
+}
+.f3 ul li{
+    list-style: none;
+}
+.f3 ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.f3 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.f4{
+    grid-column: 8/9;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+.f4 ul li{
+    list-style: none;
+}
+.f4 ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+.f4 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.f5{
+    grid-column: 9/11;
+    grid-row: 1;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+.f5 ul li{
+    list-style: none;
+}
+.f5 ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.f5 ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.down{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 300px;
+    background-color: #F7FFE5;
+   
+}
+.cont22{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    border: 1px solid black;
+    margin: 10px;
+}
+.cont22 ul{
+    display: block;
+    text-align: center;
+}
+.cont22 ul li{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+   
+}
+.cont22 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    font-weight: light;
+    text-align: center;
+
+}
+.misc ul{
+    display: block;
+    align-content: space-around;
+    margin: 0;
+
+}
+.misc ul li{
+    display: inline-block;
+    
+}
+.misc img {
+    width: 15px;
+    font-size: 8px;
+}
+.misc ul li a{
+    font-size: 100
+    ;
+}
+h5{
+    color: rgb(7, 64, 102);
+    font-size: 10px;
+}
+.main{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.more{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: light;
+    text-align: center;
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(12,1fr);
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: #F7FFE5;
+    
+    
+}
+.more h4{
+    text-align: center;
+    
+}
+.endnote{
+    font-size: 10px;
+   
+
+}
+.learn{
+    grid-column:4/10;
+    grid-row: 1;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: black;
+    font-weight: lighter;
+    
+
+
+}
+.endnote a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+
+}
+.endnote a:hover{
+    border-bottom: 1px solid black;
+}
+.nav-1{
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+#btn6{
+    position: absolute;
+    bottom: 20px;
+    right: -15px;
+    transform: rotate(-90deg);
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(26, 93, 124);
+    border: none;
+    border-radius: 3px;
+}
+#btn6 a{
+    color: white;
+    text-decoration: none;
+}
